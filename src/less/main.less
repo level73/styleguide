@@ -1,0 +1,19 @@
+
+/** Main Styles - Importing pieces and components **/
+@import 'variables.less';
+@import 'mixins.less';
+@import 'core.less';
+@import 'components.less';
+
+body {
+  padding-top: 51px; // fixed-navigation
+  position: relative; // needed for scrollspy
+  .bodycopy;
+}
+section {
+  border-bottom: 1px dotted @firebrick;
+  padding-top: 30px;
+  &:not(:first-child) {
+    padding-top: 30px;
+  }
+}

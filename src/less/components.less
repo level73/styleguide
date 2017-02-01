@@ -1,0 +1,120 @@
+.navbar {
+  background: white;
+  border-bottom: 1px dashed @seagreen;
+  margin: 0px;
+  a.navbar-brand {
+    padding: 11px 15px;
+  }
+}
+
+#topmenu li {
+  a { color: @granite; text-decoration: none; }
+  &.active {
+    background: @granite;
+    a {
+      background: @granite;
+      color: @seagreen;
+    }
+  }
+}
+
+.col-md-2 h2.anchor {
+  color: @granite;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.color {
+  //width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: -30px 0px 0px;
+  color: white;
+  &.firebrick { background: @firebrick; }
+  &.seagreen { background: @seagreen; }
+  &.granite { background: @granite; }
+  &.concrete { background: @concrete; }
+  &.nightblack { background: @nightblack; }
+  span.color-name {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    li label { width: 20%; }
+  }
+}
+
+
+figure {
+  padding: 15px 0px;
+  fig-caption {
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    color: @granite;
+    text-align: center;
+    display: block;
+  }
+}
+code { .monospace; color: @firebrick; }
+a {
+  .transitions;
+  color: darken(@seagreen, 25%);
+  text-decoration: underline;
+  &:hover, &:active, &:visited {
+    color: @firebrick;
+  }
+}
+blockquote {
+  &:before {
+    content: '{';
+    font-size: 96px;
+    color: @granite;
+    width: 45px;
+    padding: 20px 15px 50px 0px;
+    .titles;
+    font-style: normal;
+    display: block;
+    float: left;
+    clear: none;
+
+  }
+  color: @granite;
+  font-size: 14px;
+  font-style: italic;
+  /** Bootstrap resets - sometimes you just need them **/
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+p.abstract {
+  font-size: 16px;
+  line-height: 185%;
+  &::first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    color: @firebrick;
+    font-weight: 800;
+  }
+}
+p {
+  line-height: 160%;
+}
+strong { font-weight: 800; }
+footer {
+  background: @nightblack;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+  .morse {
+    padding-top: 59px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "lvl73-styleguide",
+  "version": "1.0.0",
+  "description": "Level73 Styleguide reference",
+  "main": "index.htm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/level73/styleguide.git"
+  },
+  "keywords": [
+    "styleguide",
+    "level73",
+    "bootstrap",
+    "less"
+  ],
+  "author": "Alan Zard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/level73/styleguide/issues"
+  },
+  "homepage": "https://github.com/level73/styleguide#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

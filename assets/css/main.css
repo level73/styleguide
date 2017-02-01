@@ -1,0 +1,181 @@
+/** Main Styles - Importing pieces and components **/
+/** Main Corporate Color **/
+.titles {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bodycopy {
+  font-family: "Open Sans", sans-serif;
+}
+.monospace {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  color: #58595B;
+}
+.border-dash-fire {
+  border-bottom: 1px dashed #DA4C43;
+}
+.border-dots-sea {
+  border-bottom: 1px dotted #ADD2CA;
+}
+.transitions {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.navbar {
+  background: white;
+  border-bottom: 1px dashed #ADD2CA;
+  margin: 0px;
+}
+.navbar a.navbar-brand {
+  padding: 11px 15px;
+}
+#topmenu li a {
+  color: #939598;
+  text-decoration: none;
+}
+#topmenu li.active {
+  background: #939598;
+}
+#topmenu li.active a {
+  background: #939598;
+  color: #ADD2CA;
+}
+.col-md-2 h2.anchor {
+  color: #939598;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.color {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: -30px 0px 0px;
+  color: white;
+}
+.color.firebrick {
+  background: #DA4C43;
+}
+.color.seagreen {
+  background: #ADD2CA;
+}
+.color.granite {
+  background: #939598;
+}
+.color.concrete {
+  background: #58595B;
+}
+.color.nightblack {
+  background: #231F20;
+}
+.color span.color-name {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.color ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.color ul li label {
+  width: 20%;
+}
+figure {
+  padding: 15px 0px;
+}
+figure fig-caption {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  color: #939598;
+  text-align: center;
+  display: block;
+}
+code {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  color: #58595B;
+  color: #DA4C43;
+}
+a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #5ba595;
+  text-decoration: underline;
+}
+a:hover,
+a:active,
+a:visited {
+  color: #DA4C43;
+}
+blockquote {
+  color: #939598;
+  font-size: 14px;
+  font-style: italic;
+  /** Bootstrap resets - sometimes you just need them **/
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+blockquote:before {
+  content: '{';
+  font-size: 96px;
+  color: #939598;
+  width: 45px;
+  padding: 20px 15px 50px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  display: block;
+  float: left;
+  clear: none;
+}
+p.abstract {
+  font-size: 16px;
+  line-height: 185%;
+}
+p.abstract::first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  color: #DA4C43;
+  font-weight: 800;
+}
+p {
+  line-height: 160%;
+}
+strong {
+  font-weight: 800;
+}
+footer {
+  background: #231F20;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+}
+footer .morse {
+  padding-top: 59px;
+}
+body {
+  padding-top: 51px;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  border-bottom: 1px dotted #DA4C43;
+  padding-top: 30px;
+}
+section:not(:first-child) {
+  padding-top: 30px;
+}
